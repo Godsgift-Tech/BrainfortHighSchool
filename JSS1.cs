@@ -14,7 +14,8 @@ namespace BrainfortHighSchool
         public string ClassName;
         public void Teach()
         {
-            Console.WriteLine("TEACHING IS CURRENTLY ON IN OUR JSS1 CLASS");
+            Console.WriteLine("TEACHING IS CURRENTLY ON IN OUR JSS1 CLASS!!!!");
+            Console.WriteLine("");
             List<JSS1> student = new List<JSS1>();
             {
                 student.Add(new JSS1 { TutorName = "Mr. Lucky", StudentName = "Mary", SubjectName = "English", ClassName = "JSS1 Class" });
@@ -25,17 +26,22 @@ namespace BrainfortHighSchool
 
             }
             student.ForEach(student => Console.WriteLine($"{student.TutorName} teaches {student.StudentName} {student.SubjectName} in {student.ClassName}"));
-            Console.WriteLine("LIST OF JSS1 TUTOR NAMES ARE");
+            Console.WriteLine("");
+            Console.WriteLine("LIST OF JSS1 TUTOR NAMES ARE: ");
             student.ForEach(student => Console.WriteLine($"{student.TutorName}"));
-            Console.WriteLine("LIST OF STUDENTS IN JSS1 CLASS ARE");
+            Console.WriteLine("");
+            Console.WriteLine("LIST OF STUDENTS IN JSS1 CLASS ARE: ");
             student.ForEach(student => Console.WriteLine($"{student.StudentName}"));
+            Console.WriteLine("");
+
 
 
 
         }
-        public void Assignment()
+        public void Asignment()
         {
             Console.WriteLine("There is no asignment in JSS1 class this week!");
+            Console.WriteLine("");
         }
     }
 }

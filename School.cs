@@ -17,7 +17,7 @@ namespace BrainfortHighSchool
         }
         public void Test(JSS1 JSS1) 
         {
-            JSS1.Assignment();
+            JSS1.Asignment();
          
         }
         public void Learning(JSS2 JSS2) 
@@ -27,7 +27,7 @@ namespace BrainfortHighSchool
         }
         public void Test(JSS2 JSS2) 
         {
-            JSS2.Assignment();
+            JSS2.Asignment();
            
         }
         
